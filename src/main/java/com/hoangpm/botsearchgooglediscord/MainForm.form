@@ -73,9 +73,6 @@
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JTextField" name="txtToken">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="NTY3OTA1NzkwMTMzMDEwNDMy.XLaXNw.1DUGbZ0yLiD0aItecPbMTzzYsBE"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
@@ -105,9 +102,6 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtRoomName">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="penguinbot"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>

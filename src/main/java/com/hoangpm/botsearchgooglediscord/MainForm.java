@@ -12,6 +12,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
 import java.awt.Color;
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import javax.security.auth.login.LoginException;
@@ -28,12 +29,25 @@ import net.dv8tion.jda.api.entities.TextChannel;
 public class MainForm extends javax.swing.JFrame {
 
     public static final String QUEUE_NAME = "CONFETTI";
+    public static String TOKEN = "";
+    public static String ROOM = "";
 
     /**
      * Creates new form MainForm
      */
     public MainForm() {
         initComponents();
+        FileUtils utils = new FileUtils();
+        String data = utils.readFile("data.txt");
+        if (data != "") {
+            String[] arrData = data.split("-");
+            if (arrData.length == 2) {
+                TOKEN = arrData[0];
+                txtToken.setText(TOKEN);
+                ROOM = arrData[1];
+                txtRoomName.setText(ROOM);
+            }
+        }
     }
 
     public static StringBuilder handleStringArray(String[] arr) {
@@ -88,7 +102,7 @@ public class MainForm extends javax.swing.JFrame {
         factory.setRequestedHeartbeat(30);
         factory.setConnectionTimeout(30000);
         try {
-            factory.setUri("amqp://qjoahoff:Qxm4reMreDbVPRyDlie5PfuQEOe_SWR2@dinosaur.rmq.cloudamqp.com/qjoahoff");
+            factory.setUri("amqp://izsobjzi:nKqJVuWiD8MQtOE3WZaA5dsh69UAYpbP@mustang.rmq.cloudamqp.com/izsobjzi");
             Connection connection = factory.newConnection();
             Channel channel = connection.createChannel();
             channel.queueDeclare(QUEUE_NAME, false, false, true, null);
@@ -131,8 +145,6 @@ public class MainForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        txtToken.setText("NTY3OTA1NzkwMTMzMDEwNDMy.XLaXNw.1DUGbZ0yLiD0aItecPbMTzzYsBE");
-
         jLabel1.setText("Bot Token");
 
         btnStart.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
@@ -150,8 +162,6 @@ public class MainForm extends javax.swing.JFrame {
                 btnExitActionPerformed(evt);
             }
         });
-
-        txtRoomName.setText("penguinbot");
 
         jLabel2.setText("Room Name");
 
@@ -204,11 +214,23 @@ public class MainForm extends javax.swing.JFrame {
     }//GEN-LAST:event_btnExitActionPerformed
 
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
-        // TODO add your handling code here:
+        if (txtToken.getText().equals("") || txtRoomName.getText().equals("")) {
+            System.out.println("Fill all field");
+            return;
+        }
         JDABuilder builder = new JDABuilder(AccountType.BOT.BOT);
 //        String token = "NTY3MTczODA3NDMzODQyNjk4.XLPyFQ.2K0aEUgLRURN9wTEN_r-5pcs80M";
-        String token = txtToken.getText().toString().trim();
-        String room = txtRoomName.getText().toString().trim();
+        String token = "";
+        String room = "";
+        if (TOKEN == "" && ROOM == "") {
+            token = txtToken.getText().toString().trim();
+            room = txtRoomName.getText().toString().trim();
+            FileUtils utils = new FileUtils();
+            utils.saveFile(token + "-" + room, "data.txt");
+        } else {
+            token = TOKEN;
+            room = ROOM;
+        }
         builder.setToken(token);
         try {
             JDA jda = builder.build();
