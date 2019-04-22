@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e37022-3497-49c4-9975-49e8b668c54d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServiceCreate.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServiceCreate.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hoangpm/botsearchgooglediscord/MainForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hoangpm/botsearchgooglediscord/MainForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/BotSearchGoogleDiscord_jar/BotSearchGoogleDiscord.jar" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/BotSearchGoogleDiscord_jar/BotSearchGoogleDiscord.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+              <caret line="228" column="59" lean-forward="true" selection-start-line="228" selection-start-column="59" selection-end-line="228" selection-end-column="59" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.form">
-          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="646">
               <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,8 +74,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.java" />
       </list>
     </option>
   </component>
@@ -107,40 +97,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="BotSearchGoogleDiscord" type="b2602c69:ProjectViewProjectNode" />
               <item name="BotSearchGoogleDiscord" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BotSearchGoogleDiscord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotSearchGoogleDiscord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BotSearchGoogleDiscord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotSearchGoogleDiscord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BotSearchGoogleDiscord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotSearchGoogleDiscord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BotSearchGoogleDiscord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BotSearchGoogleDiscord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="botsearchgooglediscord" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,16 +188,18 @@
       <workItem from="1555675629878" duration="30000" />
       <workItem from="1555764399593" duration="678000" />
       <workItem from="1555784765974" duration="2318000" />
+      <workItem from="1555835608364" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13468000" />
+    <option name="totallyTimeSpent" value="13883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,6 +234,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -282,25 +258,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <caret line="228" column="59" lean-forward="true" selection-start-line="228" selection-start-column="59" selection-end-line="228" selection-end-column="59" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoangpm/botsearchgooglediscord/MainForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
